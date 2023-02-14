@@ -1,0 +1,15 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.todo-item p {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
