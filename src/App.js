@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-      <div className="container">
+      <div className="container" style={{ textAlign: "center" }}>
         <h1>To-Do List</h1>
         <TodoList tasks={tasks} addTask={addTask} completeTask={completeTask} deleteTask={deleteTask} />
       </div>
